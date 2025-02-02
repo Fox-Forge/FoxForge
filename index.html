@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FoxForge</title>
     <link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -13,10 +13,16 @@
             <img src="logo.png" alt="FoxForge Logo" class="logo">
             <h1>FoxForge</h1>
             <p>Tworzymy aplikacje!</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Strona główna</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <section class="about">
+    <section class="about" id="home">
         <div class="container">
             <h2>O Nas</h2>
             <p>Jesteśmy pasjonatami programowania, którzy tworzą innowacyjne aplikacje. Poniżej znajdziesz nasze projekty.</p>
@@ -38,6 +44,13 @@
                     <a href="#" class="btn">Zobacz więcej</a>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p>Skontaktuj się z nami pod adresem: kontakt@foxforge.com</p>
         </div>
     </section>
 
