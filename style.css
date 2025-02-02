@@ -121,5 +121,5 @@ footer p {
 }
 
 .logo {
-	filter: drop-shadow(5px 5px 5px black);
+	filter: drop-shadow(10px 10px 5px black);
 }
